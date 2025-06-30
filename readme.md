@@ -3,7 +3,6 @@
 # 🧭 OCTRA GUIDE
 
 A step-by-step walkthrough for setting up your OCTRA wallet, configuring the pre-client, and interacting with the testnet — even if you're not a technical user.
-
 ---
 
 ## ✅ STEP 1: WALLET SETUP
@@ -15,7 +14,8 @@ A step-by-step walkthrough for setting up your OCTRA wallet, configuring the pre
 > 💡 If Git is not installed:
 
 * Visit this link to install Git for your operating system:
-  👉 [https://github.com/git-guides/install-git]
+  👉 \[[https://github.com/git-guides/install-git](https://github.com/git-guides/install-git)]
+
 ---
 
 ### 🛠 Instructions
@@ -80,7 +80,7 @@ A step-by-step walkthrough for setting up your OCTRA wallet, configuring the pre
 
 > 💡 To install Python:
 
-* On Windows: [https://www.python.org/downloads/]
+* On Windows: \[[https://www.python.org/downloads/](https://www.python.org/downloads/)]
 * On Linux and macOS, run:
 
   ```bash
@@ -124,6 +124,7 @@ A step-by-step walkthrough for setting up your OCTRA wallet, configuring the pre
      ```bash
      source venv/bin/activate
      ```
+
    * On **Windows**:
 
      ```cmd
@@ -168,6 +169,7 @@ A step-by-step walkthrough for setting up your OCTRA wallet, configuring the pre
       ```bash
       ./run.sh
       ```
+
     * On **Windows**:
 
       ```cmd
@@ -194,8 +196,7 @@ Generating many wallets manually is difficult. Here are two options:
 ### ✅ Option 1: Use Pre-Fetched Wallets
 
 Use the list of addresses available here:
-👉 [https://github.com/0xUnavailable/fetch/blob/master/addresses.csv]
-
+👉 \[[https://github.com/0xUnavailable/fetch/blob/master/addresses.csv](https://github.com/0xUnavailable/fetch/blob/master/addresses.csv)]
 
 ---
 
@@ -222,8 +223,7 @@ Use the list of addresses available here:
    ```
 
 > 📘 You can also read the README file here for more information:
-> 👉 [https://github.com/0xUnavailable/fetch/blob/master/README.md]
-
+> 👉 \[[https://github.com/0xUnavailable/fetch/blob/master/README.md](https://github.com/0xUnavailable/fetch/blob/master/README.md)]
 
 5. **Run the scraper**
 
@@ -246,7 +246,7 @@ Use the list of addresses available here:
 
 4. **Run the following query**
 
-   ```sql
+   ```
    SELECT DISTINCT a3 where like(a3,'oct%')
    ```
 
@@ -306,5 +306,33 @@ After:  oct3d9toQriuYdiZgjqXHKEE2wEVakEE1DKBxUTozRqtmkE 0.135
 
 ---
 
+### 📋 Final Steps
+
+Copy and paste the modified addresses with the amount, for example:
+
+```
+oct3d9toQriuYdiZgjqXHKEE2wEVakEE1DKBxUTozRqtmkE 0.135  
+oct3d9toQriuYdiZgjqXHKEE2wEVakEE1DKBxUTozRqtmkE 0.135  
+oct3d9toQriuYdiZgjqXHKEE2wEVakEE1DKBxUTozRqtmkE 0.135  
+```
+
+Then:
+
+* Open the **pre-client CLI**
+* Use the **multi-send option** to send tokens to multiple addresses
+* ⚠️ **Limit it to 15 addresses** at a time to avoid errors
+
+---
+
 ## 🎉 You're Done!
+
+You’ve now:
+
+* Set up your wallet
+* Configured the pre-client
+* Generated or scraped wallet addresses
+* Formatted the data
+* Performed multi-send transactions
+
+> ✅ You are now ready to interact with OCTRA’s testnet efficiently!
 

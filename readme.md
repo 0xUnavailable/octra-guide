@@ -181,10 +181,10 @@ A step-by-step walkthrough for setting up your OCTRA wallet, configuring the pre
 ### 💧 Need Testnet Funds?
 
 Get free testnet tokens using the OCTRA faucet:
-      (https://faucet.octra.network/)**
+      (https://faucet.octra.network/)
 
 You can also track transactions using the OCTRA explorer:
-     (https://octrascan.io/)**
+     (https://octrascan.io/)
 
 ---
 
